@@ -97,7 +97,7 @@ section {
 
 /* First Section */
 .first {
-  background-image: url("https://www.cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg") no-repeat center center fixed;
+  background: url('https://www.cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 .first p {
