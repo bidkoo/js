@@ -107,6 +107,18 @@ section {
 }
 
 /* First Section */
+.video h2 {
+  font-size: 10px;
+  font-weight:bold;
+  line-height: 1.25;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 15px 8px;
+  margin: 0;
+  white-space: nowrap;
+}
 .first {
   background: url('https://www.cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg') no-repeat center center fixed;
   background-size: cover;
