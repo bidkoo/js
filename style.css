@@ -41,10 +41,6 @@ figure {
 /* Typography
 ***********************************************
 */
-header {
-  margin-bottom: 5%;
-}
-
 
 @media (max-width: 1024px) {
   h1 {
