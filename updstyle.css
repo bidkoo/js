@@ -44,7 +44,18 @@ figure {
 header {
   margin-bottom: 5%;
 }
-
+.video h2 {
+  font-size: 10px;
+  font-weight:bold;
+  line-height: 1.25;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 15px 8px;
+  margin: 0;
+  white-space: nowrap;
+}
 
 @media (max-width: 1024px) {
   h1 {
@@ -97,10 +108,8 @@ section {
 
 /* First Section */
 .first {
-  background-image: url('https://www.cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg') no-repeat center center fixed;
+  background: url('https://www.cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  width:1200px;
-  height:656px;
 }
 .first p {
   width: 50%;
