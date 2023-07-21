@@ -1,4 +1,5 @@
-article,
+<style>
+ article,
 aside,
 details,
 figcaption,
@@ -20,7 +21,6 @@ summary {
   box-sizing: border-box;
 }
 
-
 @media (max-width: 1024px) {
   body {
     font-size: 20px;
@@ -37,10 +37,47 @@ figure {
   padding: 0;
 }
 
+.video p,
+.video ol {
+  width: 70%;
+  margin: 2.5% auto;
+  padding-left: 20px;
+}
+@media (max-width: 1024px) {
+  p,
+  ol {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  p,
+  ol {
+    width: 100%;
+  }
+}
+
+.video ul li,
+.video ol li {
+  margin: 20px 0;
+}
+
+.video p, ul {
+  padding-left: 0;
+}
 
 /* Typography
 ***********************************************
 */
+
+.video h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0;
+}
 @media (max-width: 1024px) {
   h1 {
     font-size: 36px;
@@ -51,13 +88,26 @@ figure {
     font-size: 28px;
   }
 }
+
+.video h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 15px 8px;
+  margin: 0;
+  white-space: nowrap;
+}
 @media (max-width: 1200px) {
   h2 {
     font-size: 15px;
   }
 }
 
-pre, code {
+.video pre, code {
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 16px;
   line-height: 2;
@@ -73,28 +123,39 @@ pre, code {
     font-size: 14px;
   }
 }
-code {
+
+.video code {
   padding: 5px;
   vertical-align: 3px;
   white-space: nowrap;
+}
+
+.video a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: dotted 2px #fff;
+}
+.video a:hover, a:active, a:focus {
+  color: #fff;
+  border-bottom: solid 2px #fff;
 }
 
 /* Sections
 **********************************************
 */
 section {
-  padding: 10% 5%;
+  padding: 1% 5%;
   width: 100%;
 }
 
 /* First Section */
 .first {
-  background: url("https://cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg") no-repeat center center fixed;
+  background: url(https://cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 .first p {
   width: 50%;
-  margin: 10% auto;
+  margin: 1% auto;
   text-align: center;
 }
 @media (max-width: 768px) {
@@ -141,7 +202,9 @@ section {
 
 /* Second Section */
 .second {
-  background: #EEE9E9;
+  background: #EEE;
+  padding-bottom:10px;
+  margin-bottom:10px;
 }
 .second h1 {
   color: #555;
@@ -575,4 +638,44 @@ footer {
 }
 
 /*# sourceMappingURL=style.css.map */
+ 
+  @media (max-width: 1200px) {
+  h2 {
+    font-size: 15px;
+  }
+}
 
+.wrapgallery h1 {
+  font-size: 18px;
+  font-weight:bold;
+  line-height: 1.25;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 15px 8px;
+  margin: 0;
+  white-space: nowrap;
+}
+.video h2 {
+  font-size: 10px;
+  font-weight:bold;
+  line-height: 1.25;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 15px 8px;
+  margin: 0;
+  white-space: nowrap;
+}
+.first {
+  background: url("https://www.cdn.jsdelivr.net/gh/bidkoo/images@main/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.first p {
+  width: 50%;
+  margin: 10% auto;
+  text-align: center;
+}
+</style>
