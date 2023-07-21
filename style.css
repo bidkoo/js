@@ -41,7 +41,6 @@ figure {
 /* Typography
 ***********************************************
 */
-
 @media (max-width: 1024px) {
   h1 {
     font-size: 36px;
@@ -52,8 +51,6 @@ figure {
     font-size: 28px;
   }
 }
-
-
 @media (max-width: 1200px) {
   h2 {
     font-size: 15px;
@@ -76,7 +73,6 @@ pre, code {
     font-size: 14px;
   }
 }
-
 code {
   padding: 5px;
   vertical-align: 3px;
