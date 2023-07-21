@@ -223,9 +223,13 @@ section {
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   width: 23%;
-  margin: 1%;
   float: left;
   transition: all, 0.3s, ease;
+  		display:block; 
+		margin: 5px;
+		overflow:visible;
+	position:relative;
+   cursor: pointer;
 }
 @media (max-width: 1024px) {
   .video {
@@ -264,6 +268,81 @@ section {
 .video img:hover, .video img:active, .video img:focus {
   opacity: 0.75;
 }
+.video a::after {
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+      background-position: 50% 30%;
+		background-image:url("https://cdn.jsdelivr.net/gh/bidkoo/images@main/youtube.png");
+		background-repeat:no-repeat;
+		background-size:20%;
+       opacity: 0.75;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,.4));
+    
+	}
+
+	.video a:hover::after {
+    background-size:22%;
+    -webkit-transition: background-size .2s ease-in-out;
+    -moz-transition: background-size .2s ease-in-out;
+    -o-transition: background-size .2s ease-in-out;
+    transition: background-size .2s ease-in-out;
+          opacity: 1;
+       filter: drop-shadow(0 0 10px rgba(0,0,0,.4));
+	}
+/* Picture Gallery
+********************************************
+*/
+.picsy {
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  width: 23%;
+  margin: 1%;
+  float: left;
+  transition: all, 0.3s, ease;
+}
+@media (max-width: 1024px) {
+  .picsy  {
+    width: 31.333%;
+  }
+}
+@media (max-width: 768px) {
+  .picsy  {
+    width: 48%;
+  }
+}
+@media (max-width: 480px) {
+  .picsy {
+    display: block;
+    width: 96%;
+    margin: 2%;
+    float: none;
+  }
+}
+.picsy figure {
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+.picsy figure a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: 0;
+}
+.picsy img {
+  width: 100%;
+  opacity: 1;
+}
+.picsy img:hover, .picsy img:active, .picsy img:focus {
+  opacity: 0.75;
+}
+
 
 /* Images 
 ********************************************
