@@ -1,3 +1,189 @@
+/* #demoSeven */
+.imageList {
+  width: 550px;
+}
+
+.imageList img,
+.imageList h2,
+.imageList p {
+  float: left;
+}
+
+.imageList img {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.imageList p,
+.imageList h2 {
+  width: 360px;
+}
+
+.imageList li {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em 0 1em 1em;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.imageList li:hover {
+  background-color: #eff1f9;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 2px 0px #bababa;
+  box-shadow: 0px 0px 5px 0px #BBB;
+}
+
+.imageList h2,
+.imageList p {
+  background: none;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.imageList a {
+  text-decoration: none;
+  color: #039;
+}
+
+.first-name {
+  display: none;
+}
+
+
+
+/*******************************************************************************
+Full-Width Styles
+*******************************************************************************/
+.outer {
+  width: 100%;
+}
+
+.inner {
+  position: relative;
+  max-width: 800px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+@media screen and (max-width: 480px) {
+  #downloads {
+    display: none;
+  }
+  .inner {
+    min-width: 320px;
+    max-width: 480px;
+  }
+  #project_title {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  code, pre {
+    min-width: 320px;
+    max-width: 480px;
+    font-size: 11px;
+  }
+}
+
+/*# sourceMappingURL=demo.css.map */
+  #main_content a:hover {
+  color: #0069ba;
+}
+ul, ol, dl {
+  margin-bottom: 15px;
+}
+
+ul li {
+  list-style: inside;
+}
+
+ol li {
+  list-style: decimal inside;
+  padding-left: 20px;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+dl p {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+hr {
+  height: 1px;
+  margin-bottom: 5px;
+  border: none;
+  background: url("https://cdn.jsdelivr.net/gh/bidkoo/images@main/bg_hr.png") repeat-x center;
+}
+
+table {
+  border: 1px solid #373737;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+th {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px;
+  background: #373737;
+  color: #fff;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #373737;
+}
+
+form {
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+img {
+  xwidth: 100%;
+  max-width: 100%;
+}
+#main_content_wrap {
+  background: #fff;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+#main_content {
+  padding-top: 40px;
+}  
+  
 /*
 	STYLE SHEET FOR JQUERY LISTNAV PLUGIN V 3.0.0, 11/22/2017
 	For more information, visit http://esteinborn.github.com/jquery-listnav
@@ -54,6 +240,4 @@
   text-align: center;
   top: 0;
   width: 20px;
-}
-
-/*# sourceMappingURL=listnav.css.map */
+} 
