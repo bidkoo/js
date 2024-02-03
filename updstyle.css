@@ -864,11 +864,11 @@ footer {
   margin-bottom: 8px;
 }
 
-.tabs-container .tab-content .content {
+.tabs-container .tab-content .contentab {
   line-height: 2;
 }
 
-.tabs-container .tab-content .content img {
+.tabs-container .tab-content .contentab img {
   width: 100%;
 }
 
